@@ -1,0 +1,118 @@
+.clients img {
+    max-width: 40%;
+}
+
+.clients img {
+    max-width: 45%;
+    transition: all 0.4s ease-in-out;
+    display: inline-block;
+    padding: 15px 0;
+    filter: grayscale(100);
+}
+.clients img:hover {
+    max-width: 45%;
+    transition: all 0.5s ease;
+    transform: scale(1.2);
+    filter: none;
+
+}
+.custom-footer{
+    background-color: #515d6a;
+}
+.social-icon{
+    background-color: #636e79;
+    border-radius: 5px;
+    padding: 8px 15px;
+}
+.social-icon:hover{
+    background-color: #ff0000;
+    transition: all 0.4s ease-in-out;
+    border-radius: 5px;
+    
+}
+
+.carousel-item{
+    height: 90vh;
+}
+.carousel-item img{
+    opacity: 0.5;
+   background-color: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5));
+}
+.my-carousel-img{
+    background-image: url('images/carousel-1.jpeg') linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5));
+}
+
+
+.card-overlay-1 {
+    background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url('../images/carousel-1.jpeg');
+    background-size: cover;
+    height: 100vh;
+    
+  }
+.card-overlay-2 {
+    background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url('../images/carousel-2.jpeg');
+    background-size: cover;
+    height: 100vh;
+
+  }
+.card-overlay-3 {
+    background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url('../images/carousel-3.jpeg');
+    background-size: cover;
+    height: 100vh;
+ 
+  }
+
+  .carousel-caption{
+      /* position: relative;
+      bottom: 0;
+      text-align: center; */
+      margin: 0 0 70px 0;
+  }
+
+  .copyright-footer{
+      color: #4A5562 ;
+  }
+
+/* Grid system */
+.grid-container{
+    display: grid;
+    border: 3px solid black;
+
+}
+/* .item1{
+    text-align: center;
+    font-size: 20px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-color: red;
+} */
+/* .item2{
+    text-align: center;
+    font-size: 20px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    background-color: blue;
+} */
+.item4{
+    text-align: center;
+    font-size: 20px;
+    grid-column-start: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-color: green;
+}
